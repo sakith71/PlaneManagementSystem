@@ -29,13 +29,26 @@ The project includes the following main components:
 - **Person.java**: Represents a person, likely a passenger, in the system.
 - **Ticket.java**: Manages ticket-related operations.
 
-## How to Run
+## Installation
+To run this project on your local machine, follow these steps:
 
-**Clone the Repository**: 
-   ```bash
-   git clone https://github.com/sakith71/PlaneManagementSystem.git
-   cd PlaneManagementSystem
-   ```
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/sakith71/PlaneManagementSystem.git
+    ```
+2. **Navigate to the Project Directory**:
+    ```bash
+    cd PlaneManagementSystem
+    ```
+3. **Compile the Java Files**:
+    ```bash
+    javac *.java
+    ```
+4. **Run the Application**:
+    ```bash
+    java PlaneManagementSystem
+    ```
+    
 <hr><br>
 
 The Plane Management System offers a solid foundation for managing key aspects of airline operations. It is designed to be both scalable and user-friendly, making it a suitable choice for small to medium-sized airlines looking to automate their operations. With its modular design, the system can easily be expanded to include additional features, such as flight scheduling, crew management, and real-time ticket booking.
