@@ -110,7 +110,7 @@ public class PlaneManagementSystem {
         boolean isValid = true;
         while (isValid) {
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter a row letter: ");
+            System.out.print("Enter a row letter (A,B,C,D): ");
             rowLetter = scanner.next().toUpperCase();
             if (rowLetter.length() == 1) {
                 rowLetterNum = rowLetter.charAt(0);
@@ -124,7 +124,7 @@ public class PlaneManagementSystem {
         while (!isValid) {
             try {
                 Scanner scanner1 = new Scanner(System.in);
-                System.out.print("Enter seat number: ");
+                System.out.print("Enter seat number (1-15 and check seat plan): ");
                 colNumber = scanner1.nextInt();
                 if (colNumber > 0 && colNumber < 15) {
                     if ((rowLetterNum == 66 || rowLetterNum == 67) && (colNumber == 13 || colNumber == 14)){
